@@ -5,4 +5,4 @@ let moduleName
 if (platform=="linux") moduleName = 'lunavod/linux-cursor-pos'
 if (platform=="win32") moduleName = 'lunavod/windows-cursor-pos'
 
-exec(`npm i ${moduleName} --no-save`).stdout.pipe(process.stdout);
+exec(`npm i ${moduleName}`).stdout.pipe(process.stdout);
